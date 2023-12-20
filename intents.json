@@ -1,0 +1,84 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting ISE HELP BOT",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting ISE HELP BOt",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "courses",
+        "patterns": [
+          "What are the courses you have?",
+          "What kinds of courses are there?",
+          "name some courses in ise?"
+        ],
+        "responses": [
+          "Machine Learning, DBMS, OS, CN, Cpp,Java are some of the course",
+          "ML,DBMS,OS,CN,Cpp,Java are some of the course we also have many personal and professional development courses" 
+        ]
+      },
+      {
+        "tag": "admissions",
+        "patterns": [
+          "tell me about admissions?",
+          "what are the procedures of admissions?",
+          "how to do admissions?"
+        ],
+        "responses": [
+          "We accept applications from KCET,COMEDK and JEE",
+          "Please Visit KCET,COMEDK and JEE websites for more information"
+        ]
+      },
+      {
+        "tag": "placements",
+        "patterns": [
+          "What is the placements trend in ise?",
+          "placements in ise?",
+          "what about placements?"
+        ],
+        "responses": [
+          "ISE has a very good placement record about 95% of the students get placed every year",
+          "highest placement in college with 95% of the students getting placed every year"
+        ]
+      },
+      {
+        "tag": "faculties",
+        "patterns": [
+          "how many faculties are there in ise?",
+          "tell me about faculties in ise?",
+          "give information about faculties in ise?"
+        ],
+        "responses": [
+          "we have around 25+ faculties in ise with 7+ PHD Holders and Dr. Ravikumar V is the HOD of the department",
+          "25 faculties with Dr. Ravikumar V as the HOD of the department"
+        ]
+      }
+    ]
+  }
+  
